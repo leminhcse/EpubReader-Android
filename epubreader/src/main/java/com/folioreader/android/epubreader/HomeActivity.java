@@ -108,12 +108,13 @@ public class HomeActivity extends AppCompatActivity
         new Thread(new Runnable() {
             @Override
             public void run() {
+                //ArrayList<HighLight> highlightList = null;
                 ArrayList<HighLight> highlightList = null;
                 ObjectMapper objectMapper = new ObjectMapper();
                 try {
-                    highlightList = objectMapper.readValue(
+                    highlightList = (ArrayList<HighLight>) objectMapper.readValue(
                             loadAssetTextAsString("highlights/highlights_data.json"),
-                            new TypeReference<List<HighlightData>>() {
+                            new TypeReference<List<HighLight>>() {
                             });
                 } catch (IOException e) {
                     e.printStackTrace();
