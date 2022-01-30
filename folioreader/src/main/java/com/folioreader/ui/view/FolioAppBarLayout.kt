@@ -48,6 +48,7 @@ class FolioAppBarLayout : AppBarLayout {
         navigationBarHeight = insets!!.bottom
 
         setMargins(insets.left, insets.top, insets.right)
+        return super.getFitsSystemWindows()
         return super.fitSystemWindows(insets)
     }
 

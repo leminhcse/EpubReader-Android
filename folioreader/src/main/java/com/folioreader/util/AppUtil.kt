@@ -43,7 +43,7 @@ class AppUtil {
                 val keysItr = jObject.keys()
                 while (keysItr.hasNext()) {
                     val key = keysItr.next()
-                    var value: Any? = null
+                    var value: Any?
                     value = jObject.get(key)
 
                     if (value is JSONObject) {
