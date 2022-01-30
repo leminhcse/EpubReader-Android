@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EpubReader.iml" filepath="$PROJECT_DIR$/.idea/modules/EpubReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epubreader/EpubReader.epubreader.iml" filepath="$PROJECT_DIR$/.idea/modules/epubreader/EpubReader.epubreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/folioreader/EpubReader.folioreader.iml" filepath="$PROJECT_DIR$/.idea/modules/folioreader/EpubReader.folioreader.iml" />
+    </modules>
+  </component>
+</project>
