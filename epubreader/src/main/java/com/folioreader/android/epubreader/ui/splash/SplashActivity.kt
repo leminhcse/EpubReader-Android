@@ -7,6 +7,7 @@ import android.os.Looper
 import com.folioreader.android.epubreader.R
 import com.folioreader.android.epubreader.base.activity.BaseActivity
 import com.folioreader.android.epubreader.example.ReadExampleActivity
+import com.folioreader.android.epubreader.ui.MainActivity
 
 class SplashActivity: BaseActivity() {
 
@@ -15,7 +16,7 @@ class SplashActivity: BaseActivity() {
         setContentView(R.layout.activity_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, ReadExampleActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000)
