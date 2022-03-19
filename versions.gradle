@@ -35,4 +35,8 @@ versions.navigation_version = "2.4.1"
 versions.rx_java_version = "2.2.18"
 versions.rx_android_version = "2.1.1"
 
+versions.room_version = "2.4.2"
+
+versions.dagger_version = '2.28.3'
+
 ext.versions = versions

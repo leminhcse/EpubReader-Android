@@ -109,6 +109,17 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-common-java8:$versions.lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle_version"
 
+    // Room
+    implementation "androidx.room:room-runtime:$versions.room_version"
+    implementation "androidx.room:room-ktx:$versions.room_version"
+    kapt "androidx.room:room-compiler:$versions.room_version"
+
+    // Dagger
+    implementation "com.google.dagger:dagger:$versions.dagger_version"
+    implementation "com.google.dagger:dagger-android-support:$versions.dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$versions.dagger_version"
+    kapt "com.google.dagger:dagger-android-processor:$versions.dagger_version"
+
     //progressBar error solve
     configurations.matching { it.name == '_internal_aapt2_binary' }.all {
         config -> config.resolutionStrategy.eachDependency {
