@@ -10,8 +10,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f5481f091867ec19b80f2a4a3c1740e/jetified-r2-streamer-kotlin-1.0.4-2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b67501b1291973b3c42db3c07254d2c4/jetified-r2-streamer-kotlin-1.0.4-2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0498ccf51712ad210465e3bc46aae335/jetified-r2-streamer-kotlin-1.0.4-2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0498ccf51712ad210465e3bc46aae335/jetified-r2-streamer-kotlin-1.0.4-2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0498ccf51712ad210465e3bc46aae335/jetified-r2-streamer-kotlin-1.0.4-2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4e65ec0a830c4b6313d69f456a4a9d87/transformed/jetified-r2-streamer-kotlin-1.0.4-2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4e65ec0a830c4b6313d69f456a4a9d87/transformed/jetified-r2-streamer-kotlin-1.0.4-2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4e65ec0a830c4b6313d69f456a4a9d87/transformed/jetified-r2-streamer-kotlin-1.0.4-2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
