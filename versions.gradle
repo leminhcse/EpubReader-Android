@@ -8,21 +8,35 @@ versions.projectVersionCode = 1
 versions.projectVersionName = "1.0"
 
 versions.androidMinSdk = 21
-versions.androidCompileSdk = 28
+versions.androidCompileSdk = 31
 versions.androidTargetSdk = 28
 
-versions.androidGradlePlugin = "3.5.3"
-versions.kotlin = "1.3.11"
+versions.androidGradlePlugin = "4.2.1"
+versions.kotlin = "1.6.0"
 
 versions.appcompat = "1.1.0"
 versions.constraintLayout = "1.1.3"
-versions.recyclerview = "1.1.0"
-versions.material = "1.0.0"
+versions.recyclerview = "1.2.1"
+versions.material = "1.5.0"
 
 versions.retrofit = "2.5.0"
-versions.jackson = "2.9.7"
-versions.gson = "2.8.5"
+versions.jackson = "2.11.1"
+versions.gson = "2.8.6"
 
-versions.lifecycle = "2.1.0"
+versions.timber_version = "4.7.1"
+
+versions.lifecycle_version = "2.4.1"
+versions.lifecycle_extensions = "2.2.0"
+
+versions.glide = "4.11.0"
+
+versions.navigation_version = "2.4.1"
+
+versions.rx_java_version = "2.2.18"
+versions.rx_android_version = "2.1.1"
+
+versions.room_version = "2.4.2"
+
+versions.dagger_version = '2.28.3'
 
 ext.versions = versions

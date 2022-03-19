@@ -3,24 +3,12 @@ manifest
 ADDED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:4:5-30
 		INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml
 		INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml
-	android:versionName
-		INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml
-		ADDED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
-		INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:3:5-51
-	android:versionCode
-		INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml
-		ADDED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:1-43:12
-		INJECTED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE

@@ -43,7 +43,7 @@ class AppUtil {
                 val keysItr = jObject.keys()
                 while (keysItr.hasNext()) {
                     val key = keysItr.next()
-                    var value: Any? = null
+                    var value: Any?
                     value = jObject.get(key)
 
                     if (value is JSONObject) {
@@ -102,7 +102,7 @@ class AppUtil {
                     obj.toString()
                 )
             } catch (e: JSONException) {
-                Log.e(LOG_TAG, e.message)
+                e.message?.let { Log.e(LOG_TAG, it) }
             }
 
         }
@@ -115,7 +115,7 @@ class AppUtil {
                     val jsonObject = JSONObject(json)
                     return Config(jsonObject)
                 } catch (e: JSONException) {
-                    Log.e(LOG_TAG, e.message)
+                    e.message?.let { Log.e(LOG_TAG, it) }
                     return null
                 }
 
