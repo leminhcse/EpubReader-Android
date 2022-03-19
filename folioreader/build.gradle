@@ -117,6 +117,6 @@ dependencies {
     implementation 'org.springframework:spring-core:4.3.19.RELEASE'
 
     // Lifecycle
-    implementation "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
+    implementation "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle_extensions"
 }
 apply from: '../folioreader/bintray/bintrayv1.gradle'

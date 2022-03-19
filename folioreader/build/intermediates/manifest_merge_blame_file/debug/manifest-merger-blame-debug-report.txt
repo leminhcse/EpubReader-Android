@@ -33,7 +33,7 @@
 20-->/Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:16:9-19:40
 21            android:name="com.folioreader.AppContext"
 21-->/Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:17:13-39
-22            android:authorities="dollar_openBracket_applicationId_closeBracket.provider.appcontext"
+22            android:authorities="${applicationId}.provider.appcontext"
 22-->/Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:18:13-71
 23            android:exported="false" />
 23-->/Users/macbook/Android/Personal Project/EpubReader/folioreader/AndroidManifest.xml:19:13-37
