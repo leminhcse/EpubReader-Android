@@ -6,27 +6,29 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.folioreader.android.epubreader.R
 import com.folioreader.android.epubreader.base.activity.BaseActivity
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.folioreader.android.epubreader.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationBarView
 
 class MainActivity: BaseActivity(), NavigationBarView.OnItemSelectedListener {
 
     private lateinit var navController: NavController
 
-    private lateinit var bottomNav: BottomNavigationView
+    private lateinit var binding: ActivityMainBinding
 
     private var currentPosition: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
         initView()
     }
 
     private fun initView() {
-        bottomNav = findViewById(R.id.navigationBar)
-        bottomNav.setOnItemSelectedListener(this)
+        binding.navigationBar.setOnItemSelectedListener(this)
 
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.navHomeContainer) as NavHostFragment
