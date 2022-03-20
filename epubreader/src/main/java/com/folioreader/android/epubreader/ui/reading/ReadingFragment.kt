@@ -9,12 +9,14 @@ import com.folioreader.android.epubreader.base.BaseFragment
 
 class ReadingFragment: BaseFragment() {
 
+    override val layoutId: Int get() = R.layout.fragment_favorites
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_reading, container, false)
+        return super.onCreateView(inflater, container, savedInstanceState)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
