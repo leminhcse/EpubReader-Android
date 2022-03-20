@@ -5,8 +5,14 @@
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="epubreader/src/main/res/layout/activity_home.xml" value="0.11778115501519756" />
+        <entry key="epubreader/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="epubreader/src/main/res/layout/activity_read_example.xml" value="0.1" />
         <entry key="epubreader/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="epubreader/src/main/res/layout/fragment_favorites.xml" value="0.2006340579710145" />
+        <entry key="epubreader/src/main/res/layout/fragment_home.xml" value="0.2006340579710145" />
+        <entry key="epubreader/src/main/res/layout/fragment_reading.xml" value="0.2006340579710145" />
+        <entry key="epubreader/src/main/res/layout/fragment_search.xml" value="0.2006340579710145" />
+        <entry key="epubreader/src/main/res/menu/menu_bottom_navigation.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>
