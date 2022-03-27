@@ -8,10 +8,15 @@
         <entry key="epubreader/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="epubreader/src/main/res/layout/activity_read_example.xml" value="0.1" />
         <entry key="epubreader/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="epubreader/src/main/res/layout/fragment_classic.xml" value="0.16847826086956522" />
+        <entry key="epubreader/src/main/res/layout/fragment_culture.xml" value="0.16847826086956522" />
+        <entry key="epubreader/src/main/res/layout/fragment_economic.xml" value="0.16847826086956522" />
         <entry key="epubreader/src/main/res/layout/fragment_favorites.xml" value="0.2006340579710145" />
+        <entry key="epubreader/src/main/res/layout/fragment_history.xml" value="0.16847826086956522" />
         <entry key="epubreader/src/main/res/layout/fragment_home.xml" value="0.2006340579710145" />
         <entry key="epubreader/src/main/res/layout/fragment_reading.xml" value="0.2006340579710145" />
         <entry key="epubreader/src/main/res/layout/fragment_search.xml" value="0.2006340579710145" />
+        <entry key="epubreader/src/main/res/layout/fragment_selfhelp.xml" value="0.16847826086956522" />
         <entry key="epubreader/src/main/res/menu/menu_bottom_navigation.xml" value="0.23645833333333333" />
       </map>
     </option>
