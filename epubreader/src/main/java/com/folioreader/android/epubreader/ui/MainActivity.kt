@@ -2,17 +2,18 @@ package com.folioreader.android.epubreader.ui
 
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.folioreader.android.epubreader.R
 import com.folioreader.android.epubreader.base.activity.BaseActivity
 import com.folioreader.android.epubreader.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationBarView
+import timber.log.Timber
 
-class MainActivity: BaseActivity(), NavigationBarView.OnItemSelectedListener {
+class MainActivity: BaseActivity(), NavigationBarView.OnItemSelectedListener, View.OnClickListener {
 
     private lateinit var navController: NavController
-
     private lateinit var binding: ActivityMainBinding
 
     private var currentPosition: Int = 0
@@ -29,6 +30,9 @@ class MainActivity: BaseActivity(), NavigationBarView.OnItemSelectedListener {
 
     private fun initView() {
         binding.navigationBar.setOnItemSelectedListener(this)
+
+        binding.header.menuImageButton.setOnClickListener(this)
+        binding.header.notifyImageButton.setOnClickListener(this)
 
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.navHomeContainer) as NavHostFragment
@@ -64,5 +68,16 @@ class MainActivity: BaseActivity(), NavigationBarView.OnItemSelectedListener {
             }
         }
         return true
+    }
+
+    override fun onClick(view: View) {
+        when (view.id) {
+            R.id.menuImageButton -> {
+                Timber.e("You just click to menu button")
+            }
+            R.id.notifyImageButton -> {
+                Timber.e("You just click to notify button")
+            }
+        }
     }
 }
