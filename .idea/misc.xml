@@ -4,6 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="epubreader/src/main/res/drawable/bottom_tab_item_background_color.xml" value="0.1745" />
+        <entry key="epubreader/src/main/res/drawable/ic_favorite.xml" value="0.1745" />
+        <entry key="epubreader/src/main/res/drawable/ic_home.xml" value="0.2025" />
+        <entry key="epubreader/src/main/res/drawable/ic_menu.xml" value="0.1745" />
+        <entry key="epubreader/src/main/res/drawable/ic_notify.xml" value="0.1745" />
+        <entry key="epubreader/src/main/res/drawable/ic_reading.xml" value="0.1745" />
+        <entry key="epubreader/src/main/res/drawable/ic_search.xml" value="0.1745" />
         <entry key="epubreader/src/main/res/layout/activity_home.xml" value="0.11778115501519756" />
         <entry key="epubreader/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="epubreader/src/main/res/layout/activity_read_example.xml" value="0.1" />
@@ -18,7 +25,10 @@
         <entry key="epubreader/src/main/res/layout/fragment_reading.xml" value="0.2006340579710145" />
         <entry key="epubreader/src/main/res/layout/fragment_search.xml" value="0.2006340579710145" />
         <entry key="epubreader/src/main/res/layout/fragment_selfhelp.xml" value="0.16847826086956522" />
+        <entry key="epubreader/src/main/res/layout/nav_header_main.xml" value="0.2703125" />
+        <entry key="epubreader/src/main/res/menu/drawer_menu.xml" value="0.2703125" />
         <entry key="epubreader/src/main/res/menu/menu_bottom_navigation.xml" value="0.23645833333333333" />
+        <entry key="folioreader/res/drawable/font_text_selector.xml" value="0.1745" />
       </map>
     </option>
   </component>
