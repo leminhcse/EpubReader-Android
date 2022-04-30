@@ -35,7 +35,7 @@
             android:layout_height="@dimen/bottom_nav_height"
             android:layout_marginStart="0dp"
             android:layout_marginEnd="0dp"
-            android:background="?android:attr/windowBackground"
+            android:background="@color/white"
             android:theme="@style/BottomNavigationViewTheme"
             android:elevation="10dp"
             app:menu="@menu/menu_bottom_navigation"
