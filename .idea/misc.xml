@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="epubreader/src/main/res/drawable/book_cover_frame.xml" value="0.1645" />
         <entry key="epubreader/src/main/res/drawable/bottom_tab_item_background_color.xml" value="0.1745" />
         <entry key="epubreader/src/main/res/drawable/ic_favorite.xml" value="0.1745" />
         <entry key="epubreader/src/main/res/drawable/ic_home.xml" value="0.2025" />
@@ -16,6 +17,7 @@
         <entry key="epubreader/src/main/res/layout/activity_read_example.xml" value="0.1" />
         <entry key="epubreader/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="epubreader/src/main/res/layout/app_bar_main.xml" value="0.22056159420289856" />
+        <entry key="epubreader/src/main/res/layout/book_item.xml" value="0.2703125" />
         <entry key="epubreader/src/main/res/layout/fragment_classic.xml" value="0.16847826086956522" />
         <entry key="epubreader/src/main/res/layout/fragment_culture.xml" value="0.16847826086956522" />
         <entry key="epubreader/src/main/res/layout/fragment_economic.xml" value="0.16847826086956522" />
@@ -25,6 +27,8 @@
         <entry key="epubreader/src/main/res/layout/fragment_reading.xml" value="0.2006340579710145" />
         <entry key="epubreader/src/main/res/layout/fragment_search.xml" value="0.2006340579710145" />
         <entry key="epubreader/src/main/res/layout/fragment_selfhelp.xml" value="0.16847826086956522" />
+        <entry key="epubreader/src/main/res/layout/item_view_1.xml" value="0.2703125" />
+        <entry key="epubreader/src/main/res/layout/item_view_2.xml" value="0.2703125" />
         <entry key="epubreader/src/main/res/layout/nav_header_main.xml" value="0.2703125" />
         <entry key="epubreader/src/main/res/menu/drawer_menu.xml" value="0.2703125" />
         <entry key="epubreader/src/main/res/menu/menu_bottom_navigation.xml" value="0.23645833333333333" />
